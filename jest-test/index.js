@@ -9,7 +9,12 @@ const person = (name, age) => {
   };
 };
 
+const toggle = (a) => {
+  return !a;
+};
+
 module.exports = {
   sum,
   person,
+  toggle,
 };
